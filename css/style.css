@@ -1,0 +1,63 @@
+/* Custom properties */
+
+:root{
+    --primary-color: #1F1F1F;
+    --primary-color-md: #363636;
+    --primary-color-light: #BEBCBB;
+    --secondary-color: #2D64E6;
+    --secondary-color-dark: #00439C;
+    --tertiary-color: #161C3B;
+}
+
+/* TODO: REMOVE */
+
+body{
+    height: 5000px;
+}
+
+/* Utilities */
+
+.bg-black{
+    background-color: #000;
+}
+
+.my_btn{
+    background-color: var(--secondary-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 0.325rem 0.75rem 0.5rem;
+    display: block;
+}
+
+.my_btn:hover{
+    color: #fff;
+}
+
+.my_btn.my_btn-dark{
+    background-color: var(--primary-color-md);
+}
+
+/* Header */
+
+#upper-header img{
+    width: 80px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: var(--primary-color);
+    font-weight: 600;
+    padding-right: 0.825rem;
+    padding-left: 0.825rem;
+}
+
+.dropdown-toggle::after{
+    content: '\f107';
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    font-size: 0.75rem;
+    border: 0;
+    opacity: 0.5;
+    vertical-align: 0;
+    margin-left: 0.5rem;
+}

@@ -49,6 +49,13 @@ h1{
 
 /* Header */
 
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 #upper-header img{
     width: 80px;
 }
@@ -83,8 +90,6 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 
 #gallery .active{
     border: 2px solid var(--secondary-color);

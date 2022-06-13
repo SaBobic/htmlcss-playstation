@@ -47,6 +47,13 @@ h1{
     background-color: var(--button-red);
 }
 
+.gallery-jumbotron{
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Header */
 
 header{
@@ -80,22 +87,17 @@ header{
 
 /* Gallery section */
 
-#gallery{
-    height: 100vh;
-}
 
-.jumbotron{
+#gallery .gallery-jumbotron{
     background-image: url('../img/jumbo-bg.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#gallery .active{
-    border: 2px solid var(--secondary-color);
 }
 
 #gallery .gallery-slider img{
     padding: 0.15rem;
     border-radius: 10px;
 }
+
+#gallery .active{
+    border: 2px solid var(--secondary-color);
+}
+

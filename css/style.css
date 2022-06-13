@@ -7,12 +7,17 @@
     --secondary-color: #2D64E6;
     --secondary-color-dark: #00439C;
     --tertiary-color: #161C3B;
+    --button-red: #CD3D0F;
 }
 
-/* TODO: REMOVE */
+/* Generics */
 
 body{
     height: 5000px;
+}
+
+h1{
+    font-size: 2.3rem;
 }
 
 /* Utilities */
@@ -27,7 +32,7 @@ body{
     text-decoration: none;
     border-radius: 30px;
     padding: 0.325rem 0.75rem 0.5rem;
-    display: block;
+    display: inline-block;
 }
 
 .my_btn:hover{
@@ -36,6 +41,10 @@ body{
 
 .my_btn.my_btn-dark{
     background-color: var(--primary-color-md);
+}
+
+.my_btn.my_btn-red{
+    background-color: var(--button-red);
 }
 
 /* Header */
@@ -60,4 +69,17 @@ body{
     opacity: 0.5;
     vertical-align: 0;
     margin-left: 0.5rem;
+}
+
+/* Gallery section */
+
+#gallery{
+    height: 100vh;
+}
+
+.jumbotron{
+    background-image: url('../img/jumbo-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

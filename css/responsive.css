@@ -1,0 +1,5 @@
+@media screen and (min-width: 768px){
+    #ps5-slider .card-ps5 img{
+        width: 50%;
+    }  
+}

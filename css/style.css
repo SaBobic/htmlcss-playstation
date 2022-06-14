@@ -30,6 +30,10 @@ h1{
     background-color: var(--primary-color-light);
 }
 
+.bg-tertiary-color{
+    background-color: var(--tertiary-color);
+}
+
 .text-secondary-color{
     color: var(--secondary-color);
 }

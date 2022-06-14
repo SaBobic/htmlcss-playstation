@@ -50,6 +50,7 @@ h1{
 .my_btn{
     background-color: var(--secondary-color);
     color: #fff;
+    border: 2px solid var(--secondary-color);
     text-decoration: none;
     font-weight: 600;
     border-radius: 30px;
@@ -59,24 +60,39 @@ h1{
 
 .my_btn:hover{
     color: #fff;
+    box-shadow: 0px 0px 0px 2px #fff inset;
 }
 
 .my_btn.my_btn-dark{
     background-color: var(--primary-color-md);
+    border-color: var(--primary-color-md);
 }
 
 .my_btn.my_btn-red{
     background-color: var(--button-red);
+    border-color: var(--button-red);
 }
 
 .my_btn.my_btn-light{
     color: var(--secondary-color);
     background-color: var(--button-light);
+    border-color: var(--button-light);
 }
 
 .my_btn.my_btn-white{
     color: var(--primary-color);
     background-color: #fff;
+    border-color: #fff;
+}
+
+.my_btn.my_btn-light:hover{
+    color: var(--secondary-color);
+    box-shadow: 0px 0px 0px 2px var(--secondary-color) inset;
+}
+
+.my_btn.my_btn-white:hover{
+    color: var(--primary-color);
+    box-shadow: 0px 0px 0px 2px var(--primary-color) inset;
 }
 
 .gallery-jumbotron{
@@ -189,5 +205,9 @@ header{
 }
 
 footer a, footer a.nav-link{
+    color: #fff;
+}
+
+footer a:hover, footer a.nav-link:hover{
     color: #fff;
 }

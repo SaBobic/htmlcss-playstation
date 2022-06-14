@@ -169,3 +169,7 @@ header{
 #sie-footer-logo{
     width: 130px;
 }
+
+footer a, footer a.nav-link{
+    color: #fff;
+}

@@ -22,6 +22,10 @@ h1{
     background-color: #000;
 }
 
+.bg-primary-color{
+    background-color: var(--primary-color);
+}
+
 .text-secondary-color{
     color: var(--secondary-color);
 }

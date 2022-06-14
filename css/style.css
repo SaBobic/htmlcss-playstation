@@ -93,6 +93,7 @@ header{
 
 
 #main-gallery .gallery-jumbotron{
+    height: 500px;
     background-image: url('../img/jumbo-bg.png');
 }
 

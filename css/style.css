@@ -48,7 +48,6 @@ h1{
 }
 
 .gallery-jumbotron{
-    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -129,6 +128,6 @@ header{
 
 /* It takes two section */
 
-#it-takes-two .gallery-jumbotron{
+#it-takes-two.gallery-jumbotron{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
 }

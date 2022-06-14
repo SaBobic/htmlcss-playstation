@@ -138,6 +138,25 @@ header{
     margin-left: 0.5rem;
 }
 
+/* Dropdown menu */
+
+.dropdown{
+    position: static;
+}
+
+.dropdown-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+}
+
+.dropdown-menu[data-bs-popper]{
+    top: 90%;
+    border-radius: 0;
+}
+
 /* Gallery section */
 
 

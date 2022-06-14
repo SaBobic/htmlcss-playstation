@@ -1,3 +1,9 @@
+/* Reset */
+
+ul *{
+    padding-left: 0;
+}
+
 /* Custom properties */
 
 :root{
@@ -157,8 +163,48 @@ header{
     border-radius: 0;
 }
 
-/* Gallery section */
+.nav-item.nav-item-square a{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    text-decoration: none;
+}
 
+.nav-item.nav-item-square img{
+    width: 60%;
+}
+
+.nav-item.nav-item-square a:hover{
+    box-shadow: 0px 0px 5px 1px #cecece;
+}
+
+#bottom-header .nav-list-dropdown li{
+    list-style-type: none;
+    padding: 0 0.5rem;
+}
+
+#bottom-header .nav-list-dropdown a{
+    display: inline-block;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#bottom-header .nav-list-dropdown a:hover{
+    color: var(--secondary-color);
+}
+
+#bottom-header .nav-list-dropdown li::before{
+    content: "•";
+    display: inline-block;
+    margin-right: 0.2rem;
+    color: var(--secondary-color);
+}
+
+/* Gallery section */
 
 #main-gallery .gallery-jumbotron{
     height: 500px;

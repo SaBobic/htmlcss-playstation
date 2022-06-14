@@ -8,6 +8,7 @@
     --secondary-color-dark: #00439C;
     --tertiary-color: #161C3B;
     --button-red: #CD3D0F;
+    --button-light: #D9DADC;
 }
 
 /* Generics */
@@ -46,6 +47,7 @@ h1{
     background-color: var(--secondary-color);
     color: #fff;
     text-decoration: none;
+    font-weight: 600;
     border-radius: 30px;
     padding: 0.325rem 0.75rem 0.5rem;
     display: inline-block;
@@ -61,6 +63,16 @@ h1{
 
 .my_btn.my_btn-red{
     background-color: var(--button-red);
+}
+
+.my_btn.my_btn-light{
+    color: var(--secondary-color);
+    background-color: var(--button-light);
+}
+
+.my_btn.my_btn-white{
+    color: var(--primary-color);
+    background-color: #fff;
 }
 
 .gallery-jumbotron{

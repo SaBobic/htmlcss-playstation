@@ -149,3 +149,9 @@ header{
 #it-takes-two.gallery-jumbotron{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
 }
+
+/* Social media section */
+
+#social-media img{
+    width: 100%;
+}

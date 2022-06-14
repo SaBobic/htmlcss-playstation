@@ -146,12 +146,25 @@ header{
     background-image: url('../img/jumbo-bg.png');
 }
 
-#main-gallery .gallery-slider img{
+#main-gallery .gallery-slider a{
     padding: 0.15rem;
-    border-radius: 10px;
+    transition: transform 0.2s;
 }
 
-#main-gallery .active{
+#main-gallery .gallery-slider a, #main-gallery .gallery-slider img{
+    border-radius: 20px;
+}
+
+#main-gallery .gallery-slider a:hover{
+    padding: 0.15rem;
+    transform: translateY(-10px);
+}
+
+#main-gallery .gallery-slider a.active:hover{
+    transform: translateY(0);
+}
+
+#main-gallery .gallery-slider a.active{
     border: 2px solid var(--secondary-color);
 }
 

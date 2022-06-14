@@ -133,11 +133,11 @@ header{
     margin-bottom: 0.5rem;
 }
 
-#ps5-slider .card-ps5.active{
+#ps5-slider .card-ps5:hover, #ps5-slider .card-ps5.active{
     opacity: 1;
 }
 
-#ps5-slider .card-ps5.active::after{
+#ps5-slider .card-ps5:hover::after, #ps5-slider .card-ps5.active::after{
     content: '';
     position: absolute;
     width: 100%;

@@ -227,6 +227,7 @@ header{
 
 #main-gallery .gallery-slider a.active:hover{
     transform: translateY(0);
+    cursor: auto;
 }
 
 #main-gallery .gallery-slider a.active{

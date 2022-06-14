@@ -26,6 +26,10 @@ h1{
     background-color: var(--primary-color);
 }
 
+.bg-primary-color-light{
+    background-color: var(--primary-color-light);
+}
+
 .text-secondary-color{
     color: var(--secondary-color);
 }

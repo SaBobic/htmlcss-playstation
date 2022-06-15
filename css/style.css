@@ -23,6 +23,10 @@ h1{
     font-size: 2.3rem;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* Utilities */
 
 .bg-black{
@@ -57,7 +61,6 @@ h1{
     background-color: var(--secondary-color);
     color: #fff;
     border: 2px solid var(--secondary-color);
-    text-decoration: none;
     font-weight: 600;
     border-radius: 30px;
     padding: 0.325rem 0.75rem 0.5rem;
@@ -171,7 +174,6 @@ header{
     justify-content: center;
     align-items: center;
     color: var(--primary-color);
-    text-decoration: none;
 }
 
 .nav-item.nav-item-square img{
@@ -190,7 +192,6 @@ header{
 #bottom-header .nav-list-dropdown a{
     display: inline-block;
     color: var(--primary-color);
-    text-decoration: none;
 }
 
 #bottom-header .nav-list-dropdown a:hover{
@@ -240,7 +241,6 @@ header{
     position: relative;
     height: 100%;
     color: var(--primary-color);
-    text-decoration: none;
 }
 
 #ps5-slider .card-ps5 img{
